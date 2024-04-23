@@ -1,10 +1,10 @@
 const sumAll = function(start, end) {
     let sum = 0;
 
-    const max = Math.max()
-    const min = Math.min()
+    const max = Math.max(start, end);
+    const min = Math.min(start, end);
 
-    for (i = end; i >= start; i--) {
+    for (i = max; i >= min; i--) {
         sum += i;
     }
 
