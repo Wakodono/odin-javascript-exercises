@@ -5,6 +5,8 @@ const sumAll = function(start, end) {
     const min = Math.min(start, end);
 
     for (i = max; i >= min; i--) {
+        if (i < 0) return 'ERROR';
+        // if ()
         sum += i;
     }
 
