@@ -1,8 +1,13 @@
 const sumAll = function(start, end) {
     let sum = 0;
-    for (let i = start; i <= end; i++) {
+
+    const max = Math.max()
+    const min = Math.min()
+
+    for (i = end; i >= start; i--) {
         sum += i;
     }
+
     return sum;
 };
 
