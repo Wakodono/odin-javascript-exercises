@@ -43,6 +43,18 @@ const factorial = function (n) {
   return result;
 };
 
+/* const factorial = function (5) {
+  let result = 1;
+  for (let i = 5; i >= 1; i--) {
+    result *= 5;
+    5 *= 4;
+    4 *= 3;
+    3 *= 2;
+  }
+
+  return result;
+}; */
+
 // Do not edit below this line
 module.exports = {
   add,
